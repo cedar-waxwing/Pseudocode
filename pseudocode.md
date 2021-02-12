@@ -87,12 +87,12 @@ INIT function
     -Create main control system  
     -Create passenger  
 
-collectiveControl function
+collectiveControl function  
     -If passenger inside elevator or passenger at exterior control panel requests the elevator to keep moving in current direction, keep going that direction.  
     -Once elevator has completed all requests in current direction, switch to the other direction if there are requests to move that direction.  
     -Otherwise, stop and await further inputs. 
 
-runsMachinery function
+runsMachinery function  
     -This just means that the control tells the machinery of the elevator to pull the elevator up or down according to collectiveControl function.
 
 Passenger inputs  
@@ -100,8 +100,8 @@ Passenger inputs
     -Provides floor number request on interior panel "providesFloorNumber"   
     -Rides in elevator car while it moves between floors "ridesCar"  
 
-UpDown input
+UpDown input  
     -Passanger presses the up or down arrow on an exterior control panel
 
-FloorNumber input
+FloorNumber input  
     -Passanger presses a number button on the interior control panel of the elevator
